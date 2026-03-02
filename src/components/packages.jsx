@@ -79,7 +79,7 @@ export default function Packages() {
              <img
   src={pkg.image}
   alt={pkg.name}
-  className="w-full h-full object-cover transition duration-700 hover:scale-105"
+  className="w-full h-full object-cover transition duration-700 hover:scale-105" loading="lazy" 
 />
           </div>
 

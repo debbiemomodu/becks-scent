@@ -30,7 +30,7 @@ export default function Testimonials() {
               <img
                 src={t.image}
                 alt={t.name}
-                className="w-16 h-16 rounded-full mx-auto mb-4 object-cover"
+                className="w-16 h-16 rounded-full mx-auto mb-4 object-cover" loading="lazy" 
               />
             )}
             <p className="text-[#2B1408]/80 italic mb-4">"{t.review}"</p>

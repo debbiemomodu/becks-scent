@@ -15,7 +15,7 @@ export default function About() {
           <img 
             src={diffuser} 
             alt="BECKS Scent Diffuser" 
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover" loading="lazy" 
           />
         </div>
 

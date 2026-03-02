@@ -10,7 +10,7 @@ export default function Footer() {
          <div className="text-center md:text-left">
   <img
     src={logo}
-    alt="Becks Scent Logo"
+    alt="Becks Scent Logo" loading="lazy" 
     className="h-12 mb-2 mx-auto md:mx-0"
   />
   <p className="text-[#2B1408]/70">

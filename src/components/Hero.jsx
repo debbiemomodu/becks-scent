@@ -21,7 +21,7 @@ export default function Hero() {
         <div className="flex flex-col items-center mb-6">
   <img src={logo} alt="BECKS Scent Logo" className="w-48 h-auto mb-4" loading="lazy"  />
   <p className="text-lg md:text-xl text-[#2B1408]/80 leading-relaxed mb-10 text-center">
-    Elevate your environment with elegant fragrance.
+      Creating calm one space at a time. <br />
     Designed for calm homes, refined spaces, and luxury living.
   </p>
 </div>
@@ -37,9 +37,10 @@ export default function Hero() {
 >
   Shop Packages
 </a>
-
-          <a
-  href="#footer"
+<a
+  href="https://wa.me/2348012345678"
+  target="_blank"
+  rel="noopener noreferrer"
   className="border border-[#2B1408] text-[#2B1408] px-10 py-3 rounded-md hover:bg-[#2B1408] hover:text-[#E3CFAD] transition inline-block"
 >
   Order Now

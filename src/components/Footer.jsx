@@ -14,7 +14,7 @@ export default function Footer() {
     className="h-12 mb-2 mx-auto md:mx-0"
   />
   <p className="text-[#2B1408]/70">
-    Elevate your space with elegance and fragrance.
+    Creating calm, one space at a time. 
   </p>
 </div>
 

@@ -33,7 +33,7 @@ const scents = [
 
 export default function ScentGuide() {
   return (
-    <section className="relative bg-[#E3CFAD]/20 py-24 px-6 overflow-hidden">
+    <section id="Scents" className="relative bg-[#E3CFAD]/20 py-24 px-6 overflow-hidden">
 
       {/* Section Header */}
       <div className="max-w-6xl mx-auto text-center mb-12 relative">

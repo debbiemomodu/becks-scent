@@ -42,16 +42,17 @@ const packages = [
     reverse: false,
   },
   {
-    name: "Single Diffuser",
-    headline: "A scent for every mood and space.",
-    description:
-      "A long-lasting reed diffuser crafted to gently scent your space and elevate the atmosphere. Designed to blend seamlessly into your home or workspace.",
-    perfectFor: "Any personal space or office.",
-    contents: ["120ml diffuser bottle", "Reed sticks"],
-    price: "₦12,000",
-    image: singleImage,
-    reverse: true,
-  },
+  name: "Single Diffuser",
+  headline: "A scent for every mood and space.",
+  description:
+    "A long-lasting reed diffuser crafted to gently scent your space and elevate the atmosphere. Designed to blend seamlessly into your home or workspace.",
+  scentGuide: "#scent-guide",
+  perfectFor: "Any personal space or office.",
+  contents: ["120ml diffuser bottle", "Reed sticks"],
+  price: "₦12,000",
+  image: singleImage,
+  reverse: true,
+},
 ];
 
 export default function Packages() {
@@ -92,10 +93,23 @@ export default function Packages() {
             <p className="text-[#2B1408]/70 italic text-lg mb-4">
               {pkg.headline}
             </p>
-
-            <p className="text-[#2B1408]/80 leading-relaxed mb-4">
-              {pkg.description}
-            </p>
+                  <p className="text-[#2B1408]/80 leading-relaxed mb-4">
+  {pkg.description}
+  {pkg.scentGuide && (
+    <>
+      {" "}
+      <span className="text text-[#2B1408]/80">
+        Available in multiple fragrances —{" "}
+        <a
+          href="#Scents"
+          className="underline text-sm hover:text-[#2B1408] transition"
+        >
+          View Scent Guide
+        </a>
+      </span>
+    </>
+  )}
+</p>
 
             <p className="text-[#2B1408]/70 mb-4 font-medium">
               Perfect for: {pkg.perfectFor}

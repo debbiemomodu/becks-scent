@@ -47,7 +47,7 @@ const packages = [
     description:
       "A long-lasting reed diffuser crafted to gently scent your space and elevate the atmosphere. Designed to blend seamlessly into your home or workspace.",
     perfectFor: "Any personal space or office.",
-    contents: ["120ml diffuser bottle", "Reed sticks (packed separately)"],
+    contents: ["120ml diffuser bottle", "Reed sticks"],
     price: "₦12,000",
     image: singleImage,
     reverse: true,

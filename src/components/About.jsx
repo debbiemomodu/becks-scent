@@ -1,4 +1,4 @@
-import diffuser from "../assets/images/BECK.jpeg";
+import diffuser from "../assets/images/BECK.png";
 
 export default function About() {
   return (

@@ -22,7 +22,7 @@ export default function Hero() {
   <img src={logo} alt="BECKS Scent Logo" className="w-48 h-auto mb-4" loading="lazy"  />
   <p className="text-lg md:text-xl text-[#2B1408]/80 leading-relaxed mb-10 text-center">
     Creating calm, one space at a time. <br />
-    Designed for calm homes, refined spaces, and luxury living.
+    Designed for homes, refined spaces, and luxury living.
   </p>
 </div>
 

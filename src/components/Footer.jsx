@@ -77,7 +77,7 @@ export default function Footer() {
             <a href="https://instagram.com/becksscents" target="_blank" rel="noopener noreferrer" className="hover:text-[#E3CFAD] transition">
               Instagram
             </a>
-            <a href="https://facebook.com/becks scents" className="hover:text-[#E3CFAD] transition">Facebook</a>
+            <a href="https://www.facebook.com/share/18dvg1wZdV/" className="hover:text-[#E3CFAD] transition">Facebook</a>
            
           </div>
         </div>

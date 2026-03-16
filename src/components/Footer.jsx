@@ -61,12 +61,12 @@ export default function Footer() {
     </svg>
 
     <a
-      href="https://wa.me/2341234567890"
+      href="https://wa.me/2348060288417"
       target="_blank"
       rel="noopener noreferrer"
       className="transition hover:text-[#C6A96B] hover:tracking-wide"
     >
-      +234 123 456 7890
+      +234 806 028 8417
     </a>
   </p>
 </div>
@@ -74,11 +74,11 @@ export default function Footer() {
         <div className="text-center md:text-left">
           <h4 className="font-medium mb-2">Follow Us</h4>
           <div className="flex gap-4 justify-center md:justify-start">
-            <a href="https://instagram.com/becksscent" target="_blank" rel="noopener noreferrer" className="hover:text-[#E3CFAD] transition">
+            <a href="https://instagram.com/becksscents" target="_blank" rel="noopener noreferrer" className="hover:text-[#E3CFAD] transition">
               Instagram
             </a>
-            <a href="#" className="hover:text-[#E3CFAD] transition">Facebook</a>
-            <a href="#" className="hover:text-[#E3CFAD] transition">Twitter</a>
+            <a href="https://facebook.com/becks scents" className="hover:text-[#E3CFAD] transition">Facebook</a>
+           
           </div>
         </div>
       </div>

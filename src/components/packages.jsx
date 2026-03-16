@@ -126,7 +126,7 @@ export default function Packages() {
             </p>
 
             <a
-              href="https://wa.me/2348012345678"
+              href="https://wa.me/2348060288417"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#2B1408] text-[#E3CFAD] py-3 px-8 rounded-full shadow-sm hover:shadow-md transition font-medium inline-block"

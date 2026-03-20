@@ -37,10 +37,10 @@ export default function Footer() {
     </svg>
 
     <a
-      href="mailto:becksscent@example.com"
+      href="mailto:Ifeomabassey9@gmail.com"
       className="transition hover:text-[#C6A96B] hover:tracking-wide"
     >
-      becksscent@example.com
+            Send us an email
     </a>
   </p>
 
@@ -61,13 +61,13 @@ export default function Footer() {
     </svg>
 
     <a
-      href="https://wa.me/2348060288417"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="transition hover:text-[#C6A96B] hover:tracking-wide"
-    >
-      +234 806 028 8417
-    </a>
+  href="https://wa.me/2348060288417"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="transition hover:text-[#C6A96B] text-sm"
+>
+  Chat on WhatsApp
+</a>
   </p>
 </div>
         {/* Socials / Links */}
